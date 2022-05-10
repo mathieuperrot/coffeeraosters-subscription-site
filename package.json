@@ -1,0 +1,22 @@
+{
+  "name": "coffeeraosters-subscription-site",
+  "version": "1.0.0",
+  "description": "![Design preview for the Coffeeroasters subscription site coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass assets/style.scss css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathieuperrot/coffeeraosters-subscription-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathieuperrot/coffeeraosters-subscription-site/issues"
+  },
+  "homepage": "https://github.com/mathieuperrot/coffeeraosters-subscription-site#readme",
+  "dependencies": {
+    "sass": "^1.51.0"
+  }
+}
