@@ -1,3 +1,4 @@
-/node_modules/**
-/coffeeroasters-subscription-site.sketch/**
-/coffeeroasters-subscription-site.fig/**
+/node_modules/
+/coffeeroasters-subscription-site.sketch/
+/coffeeroasters-subscription-site.fig/
+/.idea/
