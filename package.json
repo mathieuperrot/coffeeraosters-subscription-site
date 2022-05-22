@@ -4,7 +4,7 @@
   "description": "![Design preview for the Coffeeroasters subscription site coding challenge](./preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "sass": "sass assets/style.scss css/styles.css --watch"
+    "sass": "sass assets/style.scss css/styles.css --watch --style compressed"
   },
   "repository": {
     "type": "git",
