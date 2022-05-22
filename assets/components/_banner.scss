@@ -1,0 +1,14 @@
+.banner{
+
+    &.banner-home{
+        padding: 10rem 2.4rem;
+
+        background-image: url('/images/home/mobile/image-hero-coffeepress.jpg');
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        border-radius: 10px;
+        overflow: hidden;
+    }
+}
