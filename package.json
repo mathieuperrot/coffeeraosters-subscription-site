@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mathieuperrot/coffeeraosters-subscription-site#readme",
   "dependencies": {
+    "accordion-js": "^3.3.0",
     "sass": "^1.51.0"
   }
 }

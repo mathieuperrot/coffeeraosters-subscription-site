@@ -10,7 +10,7 @@ html{
     &.heading-h1{
         color: var(--white);
         font-size: clamp( 40px, calc(3.12vw + 28.29px) , 72px);
-        line-height: 40px;
+        line-height: 55px;
         @include mediaquery($large){
             line-height: 72px;
         }

@@ -11,20 +11,56 @@
         border-radius: 10px;
         overflow: hidden;
 
-        h1{
-            text-align: center;
+        @include mediaquery($small){
+            background-image: url('/images/home/tablet/image-hero-coffeepress.jpg');
+
+            padding: 10rem 2.4rem 10rem 5.8rem;
         }
 
-        p{
-            text-align: center;
-            color: var(--white);
-            font-weight: 300;
-            margin: 2.4rem 0 3.9rem;
+        @include mediaquery($medium){
+            background-image: url('/images/home/desktop/image-hero-coffeepress.jpg');
+
+            padding: 10rem 2.4rem 10rem 8.5rem;
         }
 
-        .banner-button{
-            display: flex;
-            justify-content: center;
+
+
+        .banner-home__content{
+
+            @include mediaquery($small){
+                max-width: 40rem;
+            }
+            @include mediaquery($medium){
+                max-width: 49.3rem;
+            }
+            
+
+            h1{
+                text-align: center;
+                @include mediaquery($small){
+                    text-align: left;
+                }
+            }
+
+            p{
+                text-align: center;
+                color: var(--white);
+                font-weight: 300;
+                margin: 2.4rem 0 3.9rem;
+                @include mediaquery($small){
+                    text-align: left;
+                }
+            }
+
+            .banner-button{
+                display: flex;
+                justify-content: center;
+                @include mediaquery($small){
+                    justify-content: flex-start;
+                }
+            }
+
         }
+
     }
 }
