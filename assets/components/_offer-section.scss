@@ -1,0 +1,135 @@
+.section-offer-home{
+
+    margin-top: 12rem;
+    background-color: var(--dark-blue);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 6.4rem 2.4rem 66rem;
+    border-radius: 10px;
+
+    position: relative;
+
+    @include mediaquery($small){
+        padding: 6.4rem 2.4rem 36rem;
+    }
+
+    @include mediaquery($large){
+        padding: 6.4rem 2.4rem 27rem;
+    }
+
+
+
+    .offer-text-intro{
+        display: block;
+        margin: 2.4rem 0 5rem;
+        text-align: center;
+        color: var(--white);
+
+        @include mediaquery($small){
+            padding: 0 3rem;
+        }
+        @include mediaquery($large){
+            padding: 0 25rem;
+        }
+    }
+
+    .offer-cards-section{
+
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+        justify-items: center;
+        width: 100%;
+        max-width: 90%;
+
+
+        position: absolute;
+        top: 32%;
+        left: 50%;
+        transform: translate(-50%);
+
+        @include mediaquery($small){
+            top: 45%;
+        }
+
+        @include mediaquery($large){
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 30px;
+            top: 55%;
+        }
+
+        .offer-card{
+
+            background-color: var(--green);
+
+            padding: 7.2rem 3.4rem 5.1rem;
+            border-radius: 8px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            max-width: 57rem;
+
+            @include mediaquery($small){
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 4.1rem 4.8rem 4.1rem 7rem;
+
+                gap: 5.5rem;
+            }
+
+            @include mediaquery($large){
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 0;
+                padding: 7.2rem 4.2rem 4.8rem;
+            }
+
+
+            .offer-card__content{
+                margin-top: 5.6rem;
+
+                @include mediaquery($small){
+                    margin-top: 0;
+                }
+
+                @include mediaquery($large){
+                    margin-top: 5.6rem;
+                }
+            }
+
+            .heading.heading-h4{
+                color: var(--white);
+                text-align: center;
+
+                @include mediaquery($small){
+                    text-align: start;
+                }
+
+                @include mediaquery($large){
+                    text-align: center;
+                }
+            }
+
+            p{
+                margin: 2.4rem 0 0;
+                color: var(--white);
+
+                @include mediaquery($small){
+                    text-align: start;
+                    margin: 1.6rem 0 0;
+                }
+                
+                @include mediaquery($large){
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+}
